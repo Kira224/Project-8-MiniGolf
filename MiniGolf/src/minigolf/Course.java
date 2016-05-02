@@ -11,6 +11,7 @@ package minigolf;
  */
 public class Course {
     // skeleton code
+    // holds info about course and customers
     String getName();
     int getNumberofHoles();
     int parForHole(int hole);
