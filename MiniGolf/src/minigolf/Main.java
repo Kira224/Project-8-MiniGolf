@@ -19,19 +19,22 @@ public class Main {
     }
   
     //skeleton classes
+    // dont need to be implemented so just having it return null so it runs
     // creates and stores a new round object and returns reference to Round object
     public static Round newRound(String courseName, String playerName){
+        // not doing rounds
         return null;
            
     }
     // looks up Round object
     public static Round getRound(String player, String coursename){
+        // not doing rounds
         return null;
     }
     //returns course object
     public static Course getCourse(String courseName){
         return null;
-    
+        
     }
     //looks up round information and returns score so far at swipe station
     public static int scoreSoFar(String courseName, String playerName){

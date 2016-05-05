@@ -11,9 +11,24 @@ package minigolf;
  */
 public class Course {
     // skeleton code
-    // holds info about course and customers
-    String getName();
-    int getNumberofHoles();
-    int parForHole(int hole);
+    // these are basic stub methods
+    // holds info about course and customers 
+    public static String getName(String courseName){
+        String course = "";
+        return courseName;
+    }
+    
+    public static int getNumberofHoles(){
+        int holes = 0;
+        return holes;
+    }
+    public static int parForHole(int hole){
+        int par1 = 0;
+        int par2 = 0;
+        int par3 = 0;
+        return hole;
+    }
+    
+    
     
 }
